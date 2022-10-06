@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(22 40 64);
+}
+
+.header {
+    background-image: url(../Images/layered-waves-haikei.svg);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+}
+
+.header>.titlebox {
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    width: 20vw;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-self: center;
+}
+
+.titlebox>.name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    width: inherit;
+}
+
+.description {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.main>.toc {
+    color: white;
+    display: flex;
+    width: 50%;
+    font-size: 40px;
+    border: 4px double white;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.toc>.list {
+    text-align: left;
+}
+
+.list>li {
+    font-size: 25px;
+}
+
+.main>.informationbox {
+    display: flex;
+    text-align: center;
+}
+
+.informationbox>.learning,
+.informationbox>.projects {}
