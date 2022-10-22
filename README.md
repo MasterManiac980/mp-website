@@ -1,2 +1,2 @@
 # mp-website
-Website summarizing my time in COSI for MP*
+Website for MP* summarizing what I have done in COSI and for the Clarkson Applied Computing Labs
