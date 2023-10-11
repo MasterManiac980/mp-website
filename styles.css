@@ -1,0 +1,148 @@
+html {
+  all: unset;
+  font-family: "Red Hat Display", sans-serif;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  all: unset;
+  display: block;
+  height: 100%;
+  background-color: #2b2b2b;
+  color: rgb(230, 230, 230);
+}
+
+img {
+  display: inline-block;
+  width: 750px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 72px;
+}
+
+pre {
+  background-color: #3c3c3c;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+pre code {
+  color: white;
+  background-color: unset;
+}
+
+code {
+  background: #3c3c3c;
+  padding: 0px 3px;
+  border-radius: 7px;
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+}
+
+a {
+  color: white;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+#container {
+  max-width: 85%;
+  margin: auto;
+  display: block;
+}
+
+header {
+  color: white;
+  margin: auto;
+  padding-top: 30px;
+  width: fit-content;
+  text-align: center;
+}
+
+#main-container {
+  display: grid;
+  grid-template-columns: 5fr 0.25fr 1fr;
+}
+
+main {
+  min-height: calc(100vh - 145.44px);
+  display: flex;
+  flex-direction: column;
+}
+
+section > ul {
+  border-left: 2px solid white;
+}
+
+nav {
+  text-align: left;
+  position: sticky;
+  height: fit-content;
+  top: 20px;
+  padding-left: 30px;
+  white-space: nowrap;
+}
+
+nav h4 {
+  margin: 0px;
+}
+
+nav ul {
+  margin: 10px 0px;
+  list-style-type: none;
+  border-left: 2px solid white;
+}
+
+nav li {
+  padding: 2px 0px;
+}
+
+nav li ul {
+  margin: 5px 0px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+section > h2 {
+  width: fit-content;
+  height: fit-content;
+  font-size: 48px;
+  padding: 30px;
+  margin-top: 0px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+section > ul {
+  min-width: 1025px;
+  max-width: 66%;
+}
