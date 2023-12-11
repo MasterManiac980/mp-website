@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="images/favicon.ico">
+	<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Red+Hat+Display:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<title>Cary Keesler - MP351 Page</title>
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Cary Keesler</h1>
+			<h2>MP 351 - 3 Credits</h2>
+		</header>
+		<hr>
+		<div id="main-container">
+			<main>
+				<section id="teaching">
+					<h2>Teaching</h2>
+					<ul>
+						<li>
+							<div id="teaching-mirror">
+								<h3>Mirror</h3>
+								<ul>
+									<li>
+										Training a group of 4 COSI members (Amity, Juno, Laney, and Nathan) to assist
+										me with maintaining / updating Mirror
+									</li>
+									<li>
+										I've been holding meetings approximately once a week for the past 5ish weeks
+									</li>
+									<li>
+										So far we have covered most of the basics of how mirror works and are working
+										on diving in a little deeper in order to make the upcoming rewrite a bit easier
+									</li>
+									<li>
+										I have also covered some tangentially related information connected to
+										networking such as static IPs vs DHCP, subnet masks, and DNS
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div id="lightning-talks">
+								<h3>Lightning Talks</h3>
+								<div id="mirror-lightning">
+									<h4>Mirror</h4>
+									<ul>
+										<li>
+											Given at the new members meeting
+										</li>
+										<li>
+											Talked about what Mirror is, what it does, and how it is used around the
+											world
+										</li>
+									</ul>
+								</div>
+								<div id="obsidian">
+									<h4>Obsidian.md</h4>
+									<ul>
+										<li>"Open-Source"</li>
+										<li>Markdown &lt3 </li>
+										<li>Can be used for taking notes in class</li>
+										<li>
+											Allows for easy export to PDF meaning it can also be used for homework or
+											other similar things
+										</li>
+										<li>
+											Showed applications of a few features of Obsidian (i.e. Mermaid Diagrams
+											for Automata Theory)
+										</li>
+									</ul>
+								</div>
+								<div id="rust-book">
+									<h4>Interactive Rust Book</h4>
+									<ul>
+										<li>
+											Interactive version of the Rust book hosted by Brown University that
+											includes quizzes to test your understanding of Rust as you progress through
+											the book and advance your knowledge
+										</li>
+									</ul>
+								</div>
+								<div id="free-for-life">
+									<h4>Free For Life</h4>
+									<ul>
+										<li>
+											A collection of free resources available to everyone such as domains,
+											database solutions, and email services
+										</li>
+									</ul>
+								</div>
+								<div id="espanso">
+									<h4>Espanso</h4>
+									<ul>
+										<li>
+											A text expander that effectively functions as a keylogger and allows you to
+											create tokens that are automatically replaced when it sees them
+											<ul>
+												<li>
+													Ex: :espanso --&gt Hi there!
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section id="lab-maintenance">
+					<h2>Learning <br> &amp <br> Lab Maintenance</h2>
+					<ul>
+						<li>
+							<div id="gh-rules-and-roles">
+								<h3>Created GitHub Rules and Roles</h3> Worked with Juno and Sophia to come up with the
+								below roles and rules: <div id="gh-roles">
+									<h4>Roles</h4>
+									<ul>
+										<li>
+											Reviewer (New)
+											<ul>
+												<li>
+													Role that will be given to anyone who makes a commit to <a
+														href="https://github.com/COSI-Lab">COSI-Lab <iconify-icon
+															icon="bi:box-arrow-up-right"></iconify-icon></a>
+													repositories and asks a current lab director to have the role
+													assigned.
+												</li>
+												<li>
+													Members with the Reviewer role must be a current student at
+													Clarkson University.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Current Member
+											<ul>
+												<li>
+													Role assigned to any current members who would like to have write
+													access to the <a href="https://github.com/COSI-Lab">COSI-Lab
+														<iconify-icon icon="bi:box-arrow-up-right"></iconify-icon></a>
+													repositories.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Alumni
+											<ul>
+												<li>
+													Role assigned to anyone who was at one point a member of the <a
+														href="https://github.com/COSI-Lab">COSI-Lab <iconify-icon
+															icon="bi:box-arrow-up-right"></iconify-icon></a>
+													organization and has since left Clarkson University.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Mirror
+											<ul>
+												<li>
+													Role assigned to current Clarkson students who are also members of
+													<a href="https://github.com/COSI-Lab">COSI-Lab <iconify-icon
+															icon="bi:box-arrow-up-right"></iconify-icon></a> and who
+													actively participate in maintaining COSI's Mirror.
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div id="gh-rules">
+									<h4>Branch Rules</h4>
+									<ul>
+										<li>
+											Main / Master
+											<ul>
+												<li>
+													Changes to code on these branches requires a pull request
+													<ul>
+														<li>
+															Pull requests require two approvals, by members with the
+															reviewer role, before they can be merged into main
+														</li>
+														<li>
+															At least one review must be to the most recent commit on a
+															pull request before it is allowed to be merged
+														</li>
+													</ul>
+												</li>
+												<li>
+													Cannot push directly to these branches
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div id="networking">
+								<h3>Networking</h3>
+								<div id="switch-installation">
+									<h4>Switch Installation</h4>
+									<ul>
+										<li>
+											Worked with Sophia to install the new network switches both in "The
+											Servery" and in COSI's rack in COLO
+										</li>
+										<li>
+											Learned about how to configure a managed switch and gained a better
+											understanding of both vlans and the layout of the current COSI network
+										</li>
+									</ul>
+								</div>
+								<div id="breaking-network">
+									<h4>Breaking the Network</h4>
+									<ul>
+										<li>
+											As of writing this (Sat. 10/7 @ 2:54am), I still don't know what went
+											wrong, everything seems to have been returned to its original state and yet,
+											its still broken
+										</li>
+										<li>
+											As of writing this (Tues. 10/10 @ 1:59am), I've been working with OIT to
+											test a variety of possible solutions ranging from unplugging and replugging
+											the transceiver to swapping the patch fibers and so far nothing has worked.
+											OIT is doing some testing of their own, hopefully that will be more fruitful
+										</li>
+										<li>
+											Despite having tried literally every tranciever in the lab, I apparently
+											missed one which happened to be the one that we had to use
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div id="organizing">
+								<h3>Organizing / Inventory</h3>
+								<ul>
+									<li>
+										Trying to organize a few shelves and figure out what hardware is currently
+										laying about the lab that doesn't need to be
+									</li>
+									<li>
+										Eventual goal is to sell hardware we are no longer using in the interest of
+										replacing it with newer hardware
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section id="projects">
+					<h2>Projects</h2>
+					<ul>
+						<li>
+							<div id="project-mirror">
+								<h3>Mirror</h3>
+								<div id="test-server">
+									<h4>Test Server - Erised</h4>
+									<ul>
+										<li>
+											Installed Debian 11
+											<ul>
+												<li>
+													Would have been Debian 12, but Mirror itself currently runs Debian
+													11 and I want this to be as faithful of a recreation as possible
+												</li>
+												<li>
+													Debian 12 was also not interacting kindly with any of the network
+													interfaces on Erised
+												</li>
+											</ul>
+										</li>
+										<li>
+											Installed and set up ZFS with the following configuration
+											<pre>
+												<code>
+  pool: erised-pool
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME                                                        STATE     READ WRITE CKSUM
+        erised-pool                                                 ONLINE       0     0     0
+          raidz1-0                                                  ONLINE       0     0     0
+            disk/by-id/scsi-35000cca0732f0720                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca2443167dc                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24431ceb8                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24431d318                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24431dd60                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24432f3ec                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24432f6fc                       ONLINE       0     0     0
+          raidz1-1                                                  ONLINE       0     0     0
+            disk/by-id/scsi-35000cca244331604                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca244331670                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca244340228                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca244340268                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24434028c                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca24434029c                       ONLINE       0     0     0
+            disk/by-id/scsi-35000cca2443402d0                       ONLINE       0     0     0
+        cache
+          disk/by-id/ata-Samsung_SSD_850_PRO_128GB_S24ZNSAG337632X  ONLINE       0     0     0
+												</code>
+											</pre>
+										</li>
+										<li>
+											Rack mounted Erised above Prometheus with the assistance of Nathan, Amity,
+											and Laney
+										</li>
+										<li>
+											Assigned a static ip of <code>128.153.145.91</code> (Mirror is
+											<code>128.153.145.19</code>)
+										</li>
+										<li>
+											Updated <a href="https://github.com/COSI-Lab/zones">Zones <iconify-icon
+													icon="bi:box-arrow-up-right"></iconify-icon></a> to have
+											<code>erised.cosi.clarkson.edu</code> and
+											<code>erised.cslabs.clarkson.edu</code> point to Erised
+										</li>
+									</ul>
+								</div>
+								<div id="wikimedia">
+									<h4> <a href="https://wikimedia.mirror.clarkson.edu">Wikimedia <iconify-icon
+												icon="bi:box-arrow-up-right"></iconify-icon></a> </h4>
+									<ul>
+										<li>
+											Finally works as intended
+										</li>
+										<li>
+											Previous link for wikimedia information (<a
+												href="https://mirror.clarkson.edu/wikimedia">mirror.clarkson.edu/wikimedia
+												<iconify-icon icon="bi:box-arrow-up-right"></iconify-icon></a>) caused
+											issues with the display of the page.
+										</li>
+										<li>
+											The css referenced in the head every html file was at
+											<code>/dumps.css</code> not <code>/wikimedia/dumps.css</code> which is where
+											is would have needed to have been in order to use the
+											<code>/wikimedia</code> route
+										</li>
+									</ul>
+								</div>
+								<div id="new-mirror">
+									<h4>New Mirror</h4>
+									<ul>
+										<li>
+											Currently devising a plan for replacing the current Mirror monolith with a
+											collection of smaller, easier to maintain, and interchangable components
+										</li>
+										<li>
+											Still in the early-ish stages of design and very much subject to change
+										</li>
+										<li>
+											As of right now, the goal is to match the functionality of the current
+											mirror and then extend the functionality from there
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div id="meetingbot">
+								<h3>Meetingbot</h3>
+								<ul>
+									<li>
+										Written in C++ using D++ as the library for interacting with Discord
+									</li>
+									<li>
+										Sends a message in the #bot_reactions channel in the COSI Discord server asking
+										for reactions
+									</li>
+									<li>
+										When someone reacts to the message, the bot assigns that user the @meeting_ping
+										role, which allows Lab Directors to ping just those members who are interesting
+										in getting meeting notifications so we dont have to do @everyone
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section id="other">
+					<h2>Other</h2>
+					<ul>
+						<li>
+							<div id="activities-fair">
+								<h3>Activities Fair &amp Career Fair Kickoff</h3>
+								<ul>
+									<li>
+										Hosted a table for people to come and talk to Sophia and I to learn more about
+										what COSI is and what we do
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div id="open-house">
+								<h3>Open House</h3>
+								<ul>
+									<li>
+										Gave a brief overview of COSI to 3 families who attended the first open house
+										of the semester
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div id="lock-box">
+								<h3>RIP Lockbox</h3>
+								<ul>
+									<li>
+										Me: 1 --- Lockbox: 0
+									</li>
+									<li>
+										Needed access to the passwords stored in the lockbox and no one was able to
+										locate the key
+									</li>
+									<li>
+										New lockbox has already been ordered
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div id="projector-pc">
+								<h3>Installed Fedora on the Projector PC</h3>
+								<ul>
+									<li>
+										The installation of Manjaro that had been on the projector PC was getting very
+										slow and needed to be replaced
+									</li>
+									<li>
+										When I was trying to pick an OS to replace it with Nathan suggested Fedora and
+										so I went with it
+									</li>
+									<li>
+										Currently running Fedora 38 Kinoite (KDE Plasma DE)
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</main>
+			<div></div>
+			<nav>
+				<h3>On This Page</h3>
+				<h4><a href="#teaching">Teaching</a></h4>
+				<ul>
+					<li><a href="#teaching-mirror">Mirror</a></li>
+					<li>
+						<a href="#lightning-talks">Lightning Talks</a>
+						<ul>
+							<li><a href="#mirror-lightning">Mirror</a></li>
+							<li><a href="obsidian">Obsidian.md</a></li>
+							<li><a href="#rust-book">Interactive Rust Book</a></li>
+							<li><a href="#free-for-life">Free For Life</a></li>
+							<li><a href="espanso">Espanso</a></li>
+						</ul>
+					</li>
+				</ul>
+				<h4><a href="#lab-maintenance">Learning &amp Lab Maintenance</a></h4>
+				<ul>
+					<li>
+						<a href="#gh-rules-and-roles">Created GitHub Rules and Roles</a>
+						<ul>
+							<li><a href="#gh-roles">Roles</a></li>
+							<li><a href="#gh-rules">Branch Rules</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#networking">Networking</a>
+						<ul>
+							<li><a href="#switch-installation">Switch Installation</a></li>
+							<li><a href="#breaking-network">Breaking the Network</a></li>
+						</ul>
+					</li>
+					<li><a href="#organizing">Organizing / Inventory</a></li>
+				</ul>
+				<h4><a href="#projects">Projects</a></h4>
+				<ul>
+					<li>
+						<a href="#project-mirror">Mirror</a>
+						<ul>
+							<li><a href="#test-server">Test Server - Erised</a></li>
+							<li><a href="#wikimedia">Wikimedia</a></li>
+							<li><a href="#new-mirror">New Mirror</a></li>
+						</ul>
+					</li>
+					<li><a href="#meetingbot">Meetingbot</a></li>
+				</ul>
+				<h4><a href="#other">Other</a></h4>
+				<ul>
+					<li><a href="activities-fair">Activities Fair &amp Career Fair Kick Off</a></li>
+					<li><a href="#open-house">Open House</a></li>
+					<li><a href="#lock-box">RIP Lockbox</a></li>
+					<li><a href="#projector-pc">Installed Fedora on the Projector PC</a></li>
+				</ul>
+			</nav>
+		</div>
+		<hr>
+		<footer> Created by Cary Keesler | <a href="https://github.com/carykees98/mp-website">Git Repository
+				<iconify-icon icon="bi:box-arrow-up-right"></iconify-icon></a> </footer>
+	</div>
+</body>
+
+</html>
